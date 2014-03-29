@@ -1,0 +1,34 @@
+Elm.Repl = Elm.Repl || {};
+Elm.Repl.make = function (_elm) {
+   _elm.Repl = _elm.Repl || {};
+   if (_elm.Repl.values)
+   return _elm.Repl.values;
+   var _N = Elm.Native,
+   _U = _N.Utils.make(_elm),
+   _L = _N.List.make(_elm),
+   _E = _N.Error.make(_elm),
+   _J = _N.JavaScript.make(_elm),
+   $moduleName = "Repl";
+   var Basics = Elm.Basics.make(_elm);
+   var Color = Elm.Color.make(_elm);
+   var Graphics = Graphics || {};
+   Graphics.Collage = Elm.Graphics.Collage.make(_elm);
+   var Graphics = Graphics || {};
+   Graphics.Element = Elm.Graphics.Element.make(_elm);
+   var List = Elm.List.make(_elm);
+   var Maybe = Elm.Maybe.make(_elm);
+   var Native = Native || {};
+   Native.Ports = Elm.Native.Ports.make(_elm);
+   var Prelude = Elm.Prelude.make(_elm);
+   var Signal = Elm.Signal.make(_elm);
+   var String = Elm.String.make(_elm);
+   var Text = Elm.Text.make(_elm);
+   var Time = Elm.Time.make(_elm);
+   var _op = {};
+   var t_s_o_l_ = {ctor: "_Tuple0"};
+   var deltron3030 = Graphics.Collage.move;
+   _elm.Repl.values = {_op: _op
+                      ,deltron3030: deltron3030
+                      ,t_s_o_l_: t_s_o_l_};
+   return _elm.Repl.values;
+};
